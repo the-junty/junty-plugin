@@ -8,7 +8,7 @@
  
 namespace Junty\Plugin;
 
-interface PluginInterface extends InjectableInterface
+interface PluginInterface
 {
     public function getName() : string;
 
