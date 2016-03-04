@@ -1,0 +1,16 @@
+{
+    "name": "junty/junty-plugin",
+    "description": "Package for create Junty plugins.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GabrielJMJ",
+            "homepage": "http://github.com/gabrieljmj"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Junty\\Plugin\\": "src/Junty/Plugin/"
+        }
+    }
+}
